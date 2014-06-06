@@ -48,3 +48,19 @@ p a {
 li {
     list-style-type: square;
 }
+div.success{
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+div.error{
+	font-size: 14pt;
+	font-weight: bold;
+	font-color: #F78181;
+}
+
+input.error, textarea.error  {
+	-webkit-box-shadow: inset 0 1px 1px #F78181;
+	box-shadow: inset 0 1px 1px #F78181;
+	border: 1px solid #F78181;
+}
